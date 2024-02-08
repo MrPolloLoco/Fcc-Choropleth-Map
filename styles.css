@@ -1,0 +1,76 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #DCDCDC;
+}
+
+#title{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#description{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+svg{
+    background-color: #778899;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 950px;
+}
+
+
+.county:hover{
+    fill: black;
+}
+
+g{
+    color: black;
+}
+
+#rightSide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend{
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+    max-width: 220px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
